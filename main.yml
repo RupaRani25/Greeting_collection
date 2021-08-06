@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: check the role
+      include_role : 
+        name : bonjour
